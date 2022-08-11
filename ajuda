@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Cadastro</title>
+<style>
+   body
+   {background-color:royalblue;}
+    .h1.ex{
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+	background-size: 50% 50%;
+	position: fixed;
+    center:30px;
+	float:center;
+    }
+	li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+  border: 5px outset goldenrod;
+}
+
+li {
+  float: left;
+}
+ p b:hover{
+ background-color: white;
+ }
+</style>
+</head>
+<body>
+<ul>
+  <li><a class="active" href="#home">Sua conta</a></li>
+  <li><a href="#news">Retornar</a></li>
+  <li><a href="#contact">Contato</a></li>
+  <li><a href="#about">sobre</a></li>
+</ul>
+<div class="h1.ex">
+  <h1 class="ty"> Duvidas:
+  <p><b href="#password">Senha</b><p><br>
+  <p><b href="#contact">Senha</b><p><br><br>
+  <p><b href="#pabout">Senha</b><p><br><br>
+   </div>
+  </div>
+</body>
+</html>
