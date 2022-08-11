@@ -1,0 +1,170 @@
+<html>
+<head>
+<style>
+body {
+  background-color: darkblue;
+}
+
+h1 {
+  color: white;
+  background-color: royalblue;
+  text-shadow: 2px 2px 5px blue;
+  margin: auto;
+  overflow: hidden;
+  border: 5px outset goldenrod;
+  width: 600px;
+  padding: 25px;
+  margin: 20px;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  color: white;
+}
+ {
+  background-color: royalblue;
+  text-align: center;
+  width: 100%;
+  display: block;
+ }
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: cornflowerblue;
+}
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: royalblue;
+  border: 5px outset goldenrod;
+}
+
+li {
+  float: left;
+}
+#capa1{
+  position: absolute;
+   top: 35%;
+   left: 52%;
+   transform: translate(-50%, -50%);
+   border: 5px outset goldenrod;
+}
+#capa2{
+  position: absolute;
+   top: 88%;
+   left: 52%;
+   transform: translate(-50%, -50%);
+   border: 5px outset goldenrod;
+}
+#capa3{
+  position: absolute;
+   top: 143%;
+   left: 52%;
+   transform: translate(-50%, -50%);
+   border: 5px outset goldenrod;
+}
+#capa4{
+  position: absolute;
+   top: 199%;
+   left: 52%;
+   transform: translate(-50%, -50%);
+   border: 5px outset goldenrod;
+}#capa5{
+  position: absolute;
+   top: 250%;
+   left: 52%;
+   transform: translate(-50%, -50%);
+   border: 5px outset goldenrod;
+}#capa6{
+  position: absolute;
+   top: 306%;
+   left: 52%;
+   transform: translate(-50%, -50%);
+   border: 5px outset goldenrod;
+}#capa7{
+  position: absolute;
+   top: 359%;
+   left: 52%;
+   transform: translate(-50%, -50%);
+   border: 5px outset goldenrod;
+}#capa8{
+  position: absolute;
+   top: 411%;
+   left: 52%;
+   transform: translate(-50%, -50%);
+   border: 5px outset goldenrod;
+}#capa9{
+  position: absolute;
+   top: 463%;
+   left: 52%;
+   transform: translate(-50%, -50%);
+   border: 5px outset goldenrod;
+}
+#capa10{
+  position: absolute;
+   top: 520%;
+   left: 52%;
+   transform: translate(-50%, -50%);
+   border: 5px outset goldenrod;
+}
+</style>
+</head>
+<body>
+<ul>
+  <li><a class="active" href="#home">Sua conta</a></li>
+  <li><a href="#home">Retornar</a></li>
+  <li><a href="#contact">Contato</a></li>
+  <li><a href="#about">sobre</a></li>
+</ul>
+<div class="livro"> <img id="capa1"src="Manifesto.jpg" width="250px" heigth="250px">
+<h1>Nome do livro:Manifesto da Poesia Pau-Brasil</h1>
+<h1>Nome do autor:Oswald de Andrade</h1>
+<p>Manifesto da Poesia Pau-Brasil é um manifesto redigido pelo<br> escritor brasileiro Oswald de Andrade, apresentando as noções <br>estéticas que iriam nortear o seu trabalho em poesia e o de outros<br> modernistas brasileiros, influenciando também a escrita de poetas<br> estrangeiros, como o francês Blaise Cendrars.<br></p>
+                    <img id="capa2"src="memorias.jpg" width="250px" heigth="250px">
+<h1>Nome do livro:Memórias Sentimentais de João Miramar</h1>
+<h1>Nome do autor:Oswald de Andrade</h1>
+<p>Memórias sentimentais de João Miramar é um romance escrito<br> por Oswald de Andrade, publicado em 1924, o qual inclui uma <br>mescla de gêneros. É considerado uma das mais importantes obras<br> do movimento modernista brasileiro, nascido na Semana de Arte<br> Moderna de 1922.</p>
+                    <img id="capa3"src="raca.jpg" width="250px" heigth="250px">
+<h1>Nome do livro:Raça</h1>
+<h1>Nome do autor:Guilherme de Almeida</h1>
+<p>Os dois livros modernistas mais marcantes de Guilherme de <br>Almeida (1890-1969), Meu e Raça (ambos de 1925) são <br>apresentados neste volume, em edição que reproduz sua <br>diferenciada concepção estética original: nela, o poeta exercita <br>sua aptidão para projetos gráficos, reconhecida desde sua <br>participação decisiva na publicação da revista Klaxon (1922-1923),<br> porta-voz do modernismo.<br></p>
+                    <img id="capa4"src="estrangeiro.jpg" width="250px" heigth="250px">
+<h1>Nome do livro:O estrangeiro</h1>
+<h1>Nome do autor:Plínio Salgado</h1>
+<p>Na sua ampla produção, merece menção o romance O estrangeiro <br>(1926), no qual destaca a figura do imigrante no desenvolvimento <br>da nação e aprofunda a crítica à sociedade de então, refletindo <br>sobre o modelo nacionalista a ser empregado no Brasil. Esta <br>pesquisa buscará analisar esta obra em interface com as propostas<br> dos eugenistas paulistas sobre a questão da imigração.</p>
+                    <img id="capa5"src="america.jpg" width="250px" heigth="250px">
+<h1>Nome do livro:Toda a América</h1>
+<h1>Nome do autor:Ronald de Carvalho</h1>
+<p>Mergulhar na leitura de Toda a América é como embarcar em uma<br> viagem pelo continente. Das luzes da Broadway às montanhas <br>andinas, das roupas coloridas dos<br> mexicanos aos indígenas do agreste brasileiro,<br> Ronald de Carvalho faz uma pintura viva da diversidade e riqueza <br>cultural do Novo Mundo..</p>
+                    <img id="capa6"src="amar.jpg" width="250px" heigth="250px">
+<h1>Nome do livro:Amar, Verbo Intransitivo</h1>
+<h1>Nome do autor:Mário de Andrade</h1>
+<p>Amar, Verbo Intransitivo é um romance de autoria de Mário de <br>Andrade, publicado originalmente em 1927. O livro conta a <br>iniciação sexual de um adolescente com uma <br>mulher madura, uma alemã institutriz contratada pelo pai do <br>jovem. O filme Lição de Amor, de 1975, com Lilian Lemmertz é <br>baseado no livro.</p>
+                    <img id="capa7"src="macunaima.jpg" width="250px" heigth="250px">
+<h1>Nome do livro:Macunaíma</h1>
+<h1>Nome do autor:Mário de Andrade</h1>
+<p>Macunaíma, o herói sem nenhum caráter é um livro publicado em <br>1928 pelo polímata brasileiro Mário de Andrade, considerado a sua <br>obra-prima.Destinada para explorar a písique humana e o conflito <br> do carater humano.Dentre outros o conto sera uma narrativa de <br> diversos pontos e contendo os elementos classicos de uma <br> utilizando tons de critica a realidade aplicada no brasil</p>
+                    <img id="capa8"src="martim cererê.jpg" width="250px" heigth="250px">
+<h1>Nome do livro:Martim Cererê</h1>
+<h1>Nome do autor:Cassiano Ricardo</h1>
+<p>Martim Cererê é uma obra do autor modernista brasileiro Cassiano<br>Ricardo. Sua primeira publicação data de 1928, mesmo ano de <br>publicação do Manifesto Antropófago, de Oswald de Andrade, e <br>de Macunaíma, de Mário de Andrade. Representa o ponto alto <br>da vertente nacionalista e ufanista do verdeamarealismo.</p>
+                    <img id="capa9"src="republica.jpg" width="250px" heigth="250px">
+<h1>Nome do livro:República Dos Estados Unidos Do Brasil</h1>
+<h1>Nome do autor: Menotti del Picchia</h1>
+<p>"A nossa estética é de reação. Como tal, é guerreira. O termo <br> futurista, como que erradamente a etiquetaram, aceitamo-lo <br>porque era um cartel de desafio. Na geleira de mármore de <br> Carrara do parnasianismo dominante, a ponta agressiva dessa <br>proa verbal estilhaçava como um aríete. Não somos,<br> nem nunca fomos “futuristas”. Eu, pessoalmente, abomino o <br> dogmatismo e a liturgia da escola de Marinetti..</p>
+                    <img id="capa10"src="laranja.jpg" width="250px" heigth="250px">
+<h1>Nome do livro:Laranja da China</h1>
+<h1>Nome do autor:Antônio de Alcântara Machado</h1>
+<p>Laranja da China é uma coletânea de contos do escritor brasileiro <br> António de Alcântara Machado, publicada pela primeira vez em <br> 1928, em pleno modernismo da primeira fase.</p>
+</div>
+</body>
+</html>
