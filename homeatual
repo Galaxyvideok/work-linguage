@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  h1,p{
+  align: center;
+  }
+    body{
+	background-color: darkblue;
+	color: gold
+	}
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+	  background-color: cornflowerblue;
+    }
+    .row.content {height: 450px}
+	
+    .sidenav {
+      padding-top: 20px;
+      background-color: white;
+      height: 2000px;
+    }
+    
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Página Principal</a></li>
+        <li><a href="#">Acervo</a></li>
+        <li><a href="#">Ajuda</a></li>
+        <li><a href="#">Sobre nós</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><a href="#">Ajuda</a></p>
+      <p><a href="#">Sobre nós</a></p>
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1>Bem-Vindos</h1>
+      <hr>
+      <h2>Modernismo</h2>
+      <p id="l1">O Modernismo é uma escola literária que surgiu no início do século XX, após o pré-modernismo, em um momento conturbado. Esse movimento literário representa a ruptura com padrões e a inovação.
+
+Em Portugal, seu marco inicial deu-se em 1915 com a publicação da Revista Orpheu. No Brasil, este movimento possui como marco simbólico a Semana de Arte Moderna, realizada em 1922, na cidade de São Paulo, devido ao Centenário da Independência.
+
+Esse movimento ocorreu entre as duas Guerras Mundiais. Era um período agitado e de diferenciações de ideias, em que as pessoas desejavam lutar pelo seu país. Porém, em contrapartida aconteciam crises políticas, tornando o período mais tenso.
+
+A Primeira (1914-1918) e a Segunda (1939-1945) Guerras Mundiais não se concentravam em um só país, era no mundo todo.</p>
+    </div>
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <img>
+      </div>
+      <div class="well">
+        <img>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
