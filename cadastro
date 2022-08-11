@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>Cadastro</title>
+<style>
+   body
+   {background-color:darkblue;}
+    .h1.ex{
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+	background-size: 50% 50%;
+	position: fixed;
+    center:30px;
+	float:center;
+    }
+	h1.ty {
+	border: 5px outset goldenrod;
+    background-color:royalblue;
+    text-align: center;
+	width: 450px;
+    height: 250px;
+	float:center-right;
+	padding: 100;
+    margin-left: 470px;
+	margin-top: 200px;
+	}
+	li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+  border: 5px outset goldenrod;
+}
+
+li {
+  float: left;
+}
+</style>
+</head>
+<body>
+<ul>
+  <li><a class="active" href="#home">Sua conta</a></li>
+  <li><a href="#news">Retornar</a></li>
+  <li><a href="#contact">Contato</a></li>
+  <li><a href="#about">sobre</a></li>
+</ul>
+<div class="h1.ex">
+  <h1 class="ty"> Cadastro
+  <form action ="servidor.php" methold ="post">
+   Nome:
+   <input type= "text" name="login"><br>
+   Senha:
+   <input type= "password" name="password"><br>
+   Data:
+   <input type="date" name="data"><br>
+   E-mail
+   <input type="text" name="e-mail"><br>
+   <button onclick "enviar">enviar</button>
+   </div>
+  </div>
+</body>
+</html>
