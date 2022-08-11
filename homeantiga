@@ -1,0 +1,77 @@
+<head>
+<title>Δ Library Δ</title>
+<style>
+ #lol{
+  height: 100%px;
+  width: 100%;
+  display: inline-block;
+  float: left;
+  border: 5px outset goldenrod;
+  }
+  img{
+  top: 25%;
+   left: 25%;
+   transform: translate(-50%, -50%);
+  }
+  body{
+ background-color: darkblue;
+ }
+  div{
+  background-color: royalblue;
+  text-align: center;
+  width: 100%;
+  display: block;
+ }
+  button,h2{
+  border: 5px outset goldenrod;
+  }
+  button:hover{
+  background-color: steelblue;
+  font-size: 200%;
+  border: 10px outset gold;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+   transform: translateY(4px);
+  }
+  button{
+  display: inline;
+  font-size: 100%;
+  color: goldenrod;
+  background-color: cornflowerblue;
+  }
+   #av{
+   width: 250px;
+   height: 100px;
+   float: left;
+   font-family: arial;
+   fonte-size: 200px;
+   transition-duration: 0.4s;
+   cursor: pointer;
+   position: absolute;
+   top: 15%;
+   left: 15%;
+   transform: translate(-50%, -50%);
+   }
+   img{
+   }
+    #va{
+   width: 250px;
+   height: 100px;
+   float: right;
+   font-family: arial;
+   fonte-size: 200px;
+   transition-duration: 0.4s;
+  cursor: pointer;
+  position: sticky;
+   top: 20%;
+   left: 20%;
+   transform: translate(-50%, -50%);
+</style>
+</head>
+<body>
+  <div id="lol">
+<button id="av" type="submit" onclick>SOBRE</button>
+<img src="TR.jpg" width="200px" height="200px" float="center">
+ <button id="va" type="select" onclick>AJUDA</button>
+  </div>
+</body>
+</html>
